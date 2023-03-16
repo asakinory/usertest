@@ -1,6 +1,5 @@
 import random
-def part1(args, hkubeapi):
-    print('algorithm: range start')
-    input = args['input'][0]
-    array = [random.random() for _ in range(input)]
+def part1(num):
+    print('algorithm range started')
+    array = [random.random() for _ in range(num)]
     return array

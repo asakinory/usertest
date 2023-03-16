@@ -1,5 +1,4 @@
-def part2(args, hkubeapi):
-    print('algorithm: range start')
-    input = args['input'][0]
-    array = [i*2.2 for i in input]
+def part2(arr):
+    print('algorithm 2.2 power started')
+    array = [i*2.2 for i in arr]
     return array
