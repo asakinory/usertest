@@ -1,4 +1,4 @@
-def start(args, hkubeapi):
+def part2(args, hkubeapi):
     print('algorithm: range start')
     input = args['input'][0]
     array = [i*2.2 for i in input]
